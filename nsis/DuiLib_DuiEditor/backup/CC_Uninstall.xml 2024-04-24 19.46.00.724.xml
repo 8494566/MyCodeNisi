@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="630,390" maxinfo="630,390" mininfo="630,390" caption="0,0,0,32">
+	<Font id="0" size="12" name="微软雅黑" default="true" />
+	<Font id="1" size="16" name="微软雅黑" bold="true" />
+	<Font id="2" size="18" name="Microsoft YaHei" bold="true" />
+	<Container width="630" height="390" maxheight="390" maxwidth="630" minwidth="630" minheight="390">
+		<TabLayout name="WizardTab" width="630" height="390" bkcolor="#FFFFFFFF">
+			<VerticalLayout width="630" height="390">
+				<VerticalLayout width="630" height="244" bkimage="update_bg.png">
+					<Button name="Btn_Close0" float="true" pos="602,2,628,28" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_close_n.png" hotimage="btn_close_h.png" pushedimage="btn_close_n.png" />
+					<Label text="您愿意告诉我们卸载原因吗？" float="true" pos="149,84,485,111" width="336" height="27" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" font="2" />
+					<Option name="op_noFavPly" float="true" pos="157,129,169,141" width="12" height="12" bkimage="op_normal.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" align="center" normalimage="op_normal.png" selectedimage="op_select.png" />
+					<Button name="btn_noFavPly" text="语音质量差" align="left" float="true" pos="175,126,295,146" width="120" height="20" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+					<Option name="op_crash" float="true" pos="359,129,371,141" width="12" height="12" bkimage="op_normal.png" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="op_normal.png" selectedimage="op_select.png" />
+					<Button name="btn_crash" text="语音不流畅" align="left" float="true" pos="377,126,487,146" width="110" height="20" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+					<Option name="op_noFun" float="true" pos="157,159,169,171" width="12" height="12" bkimage="op_normal.png" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="op_normal.png" selectedimage="op_select.png" />
+					<Button name="btn_noFun" text="语音太嘈杂" align="left" float="true" pos="175,156,275,176" width="100" height="20" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+					<Option name="op_highLoad" float="true" pos="359,159,371,171" width="12" height="12" bkimage="op_normal.png" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="op_normal.png" selectedimage="op_select.png" />
+					<Button name="btn_highLoad" text="没有找到感兴趣的房间" align="left" float="true" pos="377,156,472,176" width="120" height="20" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+					<Option name="op_badImage" float="true" pos="157,189,169,201" width="12" height="12" bkimage="op_normal.png" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="op_normal.png" selectedimage="op_select.png" />
+					<Button name="btn_badImage" text="没找到志同道合的好友" align="left" float="true" pos="175,186,275,206" width="120" height="20" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+					<Option name="op_noSmooth" float="true" pos="359,189,371,201" width="12" height="12" bkimage="op_normal.png" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="op_normal.png" selectedimage="op_select.png" />
+					<Button name="btn_noSmooth" text="社区氛围不够活跃" align="left" float="true" pos="377,186,487,206" width="110" height="20" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+					<Option name="op_advertising" float="true" pos="157,219,169,231" width="12" height="12" bkimage="op_normal.png" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="op_normal.png" selectedimage="op_select.png" />
+					<Button name="btn_advertising" text="社区充斥大量广告" align="left" float="true" pos="175,216,275,236" width="100" height="20" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+					<Option name="op_other" float="true" pos="359,219,371,231" width="12" height="12" bkimage="op_normal.png" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="op_normal.png" selectedimage="op_select.png" />
+					<Button name="btn_other" text="其它" align="left" float="true" pos="377,216,487,236" width="110" height="20" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+				</VerticalLayout>
+				<VerticalLayout width="630" height="152" bkimage="update_bg.png">
+					<Button name="Btn_Uninstall" float="true" pos="186,33,296,69" width="110" height="36" normalimage="btn_browser_n.png" hotimage="btn_browser_h.png" pushedimage="btn_browser_p.png" textcolor="#FFFFFF" disabledtextcolor="#FFA7A6AA" text="卸载" />
+					<Button name="Btn_MoreChance" float="true" pos="342,35,452,71" width="110" height="36" normalimage="btn_quick_install_n.png" hotimage="btn_quick_install_h.png" pushedimage="btn_quick_install_p.png" textcolor="#FFFFFF" disabledtextcolor="#FFA7A6AA" text="继续使用" />
+				</VerticalLayout>
+			</VerticalLayout>
+			<VerticalLayout width="630" height="390" bkimage="update_bg.png">
+				<VerticalLayout width="630" height="250">
+					<Label float="true" pos="195,90,445,240" width="250" height="150" bkimage="logo.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Label name="lbl_poster_u" visible="false" float="true" pos="0,0,500,180" width="630" height="180" bkimage="" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Button name="Btn_Close1" float="true" pos="602,2,628,28" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_close_n.png" hotimage="btn_close_h.png" pushedimage="btn_close_n.png" />
+				</VerticalLayout>
+				<VerticalLayout width="630" height="166" pos="0,0,630,138">
+					<Progress name="Wizard_UninstallProgress" float="true" pos="152,77,610,91" width="458" height="14" bkimage="progress_bk.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progress.png" max="30000" value="50" />
+					<Label text="正在卸载" float="true" pos="32,74,89,94" width="57" height="20" textcolor="#868789" disabledtextcolor="#FFA7A6AA" />
+					<Label name="process_value" float="true" pos="87,74,144,94" width="57" height="20" textcolor="#3300FF" disabledtextcolor="#FFA7A6AA" />
+				</VerticalLayout>
+			</VerticalLayout>
+			<VerticalLayout width="630" height="390">
+				<VerticalLayout width="630" height="284" bkimage="update_bg.png">
+					<Label float="true" pos="192,51,442,201" width="250" height="150" bkimage="logo.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Label text="卸载完成!" font="0" float="true" pos="280,213,360,238" width="80" height="25" textcolor="#C3C3C4" disabledtextcolor="#FFA7A6AA" align="center" />
+					<Button name="Btn_Close2" float="true" pos="603,1,629,27" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_close_n.png" hotimage="btn_close_h.png" pushedimage="btn_close_n.png" />
+				</VerticalLayout>
+				<VerticalLayout width="630" height="106" bkimage="update_bg.png">
+					<Button name="Btn_UninstallComplete" float="true" pos="200,9,436,51" width="236" height="42" normalimage="btn_quick_install_n.png" hotimage="btn_quick_install_h.png" pushedimage="btn_quick_install_p.png" bkcolor="#00FFFFFF" bkcolor2="#00F3FCFF" textcolor="#FFFFFF" disabledtextcolor="#FFA7A6AA" text="关闭" font="0" />
+				</VerticalLayout>
+			</VerticalLayout>
+		</TabLayout>
+	</Container>
+</Window>

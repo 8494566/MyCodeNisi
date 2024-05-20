@@ -1,0 +1,15 @@
+											图标       按钮数   
+messageBox_0.xml :    蓝色叹号   双按钮   【重试】 【否】
+messageBox_1.xml :    蓝色叹号   单按钮   【确定】 
+messageBox_2.xml :    红色叹号   单按钮   【确定】 
+messageBox_3.xml :    红色问号   双按钮   【是】 【否】
+messageBox_4.xml :    蓝色问号   双按钮   【是】 【否】 带Option【是否保存帐号等信息】
+
+
+弹messageBox代码
+                   函数             窗口句柄   消息类型       参数1                    参数2
+nsTBCIASkinEngine::TBCIASendMessage $Dialog   WM_TBCIACANCEL  "1"    "${PRODUCT_NAME}安装程序已经在运行。"
+
+只要是弹msgbox 都用消息类型 WM_TBCIACANCEL （历史原因，当初为方便调试，直接挪用了原有的一个消息类型）
+参数1： 对应选哪种 msgbox 上述5个messageBox_i.xml (i=0,1,2,3,4)
+参数2:  msgbox显示的文字内容（注意是utf8格式的）

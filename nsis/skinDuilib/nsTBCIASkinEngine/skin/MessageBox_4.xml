@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="320,185" caption="0,0,0,35">
+	<Font size="12" name="微软雅黑" default="true" />
+	<VerticalLayout width="60" height="30" bkcolor="#FF181c3d">
+		<Label name="TitleLab" float="true" pos="0,0,0,0" width="320" height="32" bkimage="msg_title.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		<Button name="CloseBtn" float="true" pos="290,3,0,0" width="26" height="28" bkimage="btn_close_n.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_close_n.png" hotimage="btn_close_h.png" pushedimage="btn_close_h.png" />
+		<Button name="YESBtn" float="true" pos="75,139,0,0" width="80" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_yes_n.png" hotimage="btn_yes_h.png" pushedimage="btn_yes_p.png" />
+		<Button name="NOBtn" float="true" pos="165,139,0,0" width="80" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_no_n.png" hotimage="btn_no_h.png" pushedimage="btn_no_p.png" />
+		<Label float="true" pos="21,70,0,0" width="32" height="32" bkimage="question_icon.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		<Text name="TextLab" text="系统将卸载您本机安装的CC 开黑，是否继续？" float="true" pos="60,73,0,0" width="244" height="27" textpadding="2,0,2,0" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" showhtml="true" align="wrap" />
+		<Option name="op_save_account" float="true" pos="79,101,0,0" width="12" height="12" bkimage="op_normal.png" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" selected="true" selectedimage="op_select.png" />
+		<Label text="保留聊天记录等帐号信息" float="true" pos="95,99,0,0" width="150" height="19" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+	</VerticalLayout>
+</Window>

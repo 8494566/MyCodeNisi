@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<DuiEditor>
+	<FindText>
+		<Text>Caption</Text>
+		<Text>float</Text>
+		<Text>Wizard_InstallProgress</Text>
+		<Text>lbl_quick_install</Text>
+		<Text>selected</Text>
+		<Text>progress</Text>
+		<Text>bkimage</Text>
+		<Text>500</Text>
+		<Text>id="1"</Text>
+		<Text>update_bg</Text>
+	</FindText>
+	<XmlFontName>Courier New</XmlFontName>
+	<XmlFontSize>14</XmlFontSize>
+	<XmlLineSpace>1</XmlLineSpace>
+	<XmlBkColor>16777215</XmlBkColor>
+	<XmlSelBkColor>15780512</XmlSelBkColor>
+	<XmlCaretLineBkColor>16242647</XmlCaretLineBkColor>
+	<AutoWrapLine>0</AutoWrapLine>
+	<DesignerBkColor>15790320</DesignerBkColor>
+	<DesignerShowShadow>0</DesignerShowShadow>
+	<PropertyFile></PropertyFile>
+	<AttachTestCommand></AttachTestCommand>
+	<ControlTreeDeep>10</ControlTreeDeep>
+	<FilterPosWidthHeight>0</FilterPosWidthHeight>
+	<FormatInsert>0</FormatInsert>
+	<ViewUiPreview>0</ViewUiPreview>
+	<ViewRuleBar>0</ViewRuleBar>
+	<ViewGrid>0</ViewGrid>
+	<ViewMouse>0</ViewMouse>
+	<LangManager>0</LangManager>
+	<LangPath></LangPath>
+</DuiEditor>

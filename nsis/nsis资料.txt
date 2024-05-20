@@ -1,0 +1,15 @@
+NSIS
+
+1.许多nsis功能实现例子：http://www.pythonschool.com/NSIS_JHK/Contents.html
+2.你真正理解 ReserveFile 了吗？ http://blog.csdn.net/nsisex/article/details/14452855
+3.NSIS脚本文件格式 http://blog.csdn.net/xiaoqi030611a/article/details/39402285
+4.Nsis self-understanding（如果对英文有兴趣） ： http://www.developermemo.com/3359574/
+5.博客（如果以后要用上安装进行中却取消，可以参考）：http://www.cnblogs.com/nankezhishi/tag/NSIS/
+6.NSIS学习笔记之脚本结构简介 http://blog.csdn.net/roxliu/article/details/29584379
+
+
+duilib
+0.github源码：https://github.com/duilib/duilib 
+1.入门简明教程：http://www.cnblogs.com/alberl/p/3345102.html
+2.xml元素http://www.w3school.com.cn/xml/xml_elements.asp
+3转载自duilib入门文档 http://blog.csdn.net/zhuhongshu/article/details/38658503

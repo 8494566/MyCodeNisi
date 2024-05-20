@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="630,390" maxinfo="630,390" mininfo="630,390" caption="0,0,0,32" bktrans="true">
+	<Font id="0" size="12" name="微软雅黑" default="true" />
+	<Font id="1" size="16" name="微软雅黑" />
+	<Font id="2" size="14" name="微软雅黑" />
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scroll.png&amp;a_bkpos; source='0,0,10,16'&quot; button1hotimage=&quot;file='scroll_bk.png' source='0,0,10,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scroll_bk.png' source='0,0,10,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scroll.png' source='0,0,10,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scroll_bk.png' source='0,0,10,16' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scroll_bk.png' source='0,0,10,16' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scroll_bk.png' source='0,0,16,32' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scroll_bk.png' source='0,0,16,32' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scroll.png' source='0,0,16,32' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scroll_hover.png' source='0,0,16,32' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scroll_hover.png' source='0,0,16,32' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scroll.png' source='0,0,16,32' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scroll.png' source='0,0,16,32' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scroll_hover.png' source='0,0,16,32' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scroll_hover.png' source='0,0,16,32' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scroll.png' source='0,0,16,32' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scroll_bk.png' source='0,0,10,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scroll_bk.png' source='0,0,10,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scroll_bk.png' source='0,0,10,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scroll_bk.png' source='0,0,10,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<Container width="630" height="390" maxheight="464" maxwidth="630" minwidth="630" minheight="390">
+		<TabLayout name="WizardTab" width="632" height="382" pos="0,0,632,382" bkimage="update_bg.png">
+			<VerticalLayout name="VLayout_page0" width="630" height="464">
+				<HorizontalLayout text="CC 开黑用户许可协议" width="630" height="390">
+					<Label float="true" pos="190,45,440,195" width="250" height="150" bkimage="logo.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Button name="btn_quick_install" float="true" pos="197,221,433,263" normalimage="btn_quick_install_n.png" hotimage="btn_quick_install_h.png" pushedimage="btn_quick_install_p.png" width="236" height="42" visible="true" bkcolor="#129FE400" focusbordercolor="#000F97DA" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" text="一键安装" font="1" />
+					<Button name="Wizard_CloseBtn0" float="true" pos="603,2,629,28" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_close_n.png" hotimage="btn_close_h.png" pushedimage="btn_close_n.png" />
+					<Label name="lbl_licence_edit_bk" float="true" pos="0,94,630,294" width="630" height="200" bkimage="richedit_bk.png" visible="false" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+					<RichEdit name="LicenceRichEdit" float="true" pos="5,99,495,294" width="490" height="195" textcolor="#00000000" readonly="true" rich="true" visible="false" enabled="false" autovscroll="true" vscrollbar="true" multiline="true" bordersize="0" />
+					<Button name="btn_close_licence" float="true" pos="479,95,495,111" width="16" height="16" normalimage="btn_richedit_close_n.png" hotimage="btn_richedit_close_h.png" pushedimage="btn_richedit_close_n.png" visible="false" bkimage="btn_close_hover.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Label name="btn_agree" text="同意" float="true" pos="57,342,87,361" width="30" height="20" textcolor="#C3C3C4" disabledtextcolor="#FFA7A6AA" />
+					<Button name="btn_show_licence" float="true" pos="82,342,222,362" width="140" height="20" textcolor="#3387FF" disabledtextcolor="#FFA7A6AA" text="《用户使用许可协议》" align="left" />
+					<Label name="btn_agree" text="和" float="true" pos="203,342,221,362" width="18" height="20" textcolor="#C3C3C4" disabledtextcolor="#FFA7A6AA" />
+					<Button name="btn_custom_install" float="true" pos="520,342,599,362" width="79" height="20" text="自定义选项 &gt;&gt;" textcolor="#3387FF" disabledtextcolor="#FFA7A6AA" />
+					<Option name="op_agree_licence" float="true" pos="37,345,49,357" width="12" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="op_normal.png" selectedimage="op_select.png" selected="true" />
+					<Button name="btn_show_share" width="135" height="17" textcolor="#3387FF" disabledtextcolor="#FFA7A6AA" text="《第三方服务共享清单》" align="left" pos="218,342,353,361" float="true" />
+				</HorizontalLayout>
+			</VerticalLayout>
+			<VerticalLayout name="Vlayout_page1" width="630" height="464" maxheight="464" maxwidth="630" minwidth="630" minheight="390">
+				<VerticalLayout width="630" height="395" bkimage="update_bg.png">
+					<Label visible="true" float="true" pos="190,45,440,195" width="250" height="150" bkimage="logo.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Button name="btn_browser" visible="true" bordersize="0" float="true" pos="536,291,600,321" width="64" height="30" normalimage="btn_browser_n.png" hotimage="btn_browser_h.png" pushedimage="btn_browser_p.png" textcolor="#FFFFFF" disabledtextcolor="#FFA7A6AA" text="浏览" />
+					<Button name="btn_create_deskicon" text="创建桌面图标" visible="true" float="true" pos="57,342,132,357" width="75" height="20" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+					<Option name="op_create_deskicon" visible="true" float="true" pos="37,345,49,357" width="12" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="op_normal.png" selected="true" selectedimage="op_select.png" />
+					<Button name="Wizard_CloseBtn1" float="true" pos="603,2,629,28" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_close_n.png" hotimage="btn_close_h.png" pushedimage="btn_close_n.png" />
+					<Edit name="edit_path" bordersize="1" float="true" pos="33,291,527,321" width="494" height="30" bordercolor="#000000" bkcolor="#33000000" textpadding="4,3,4,3" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" borderround="10,10" />
+					<Button name="btn_install_now" bordersize="0" float="true" pos="197,221,433,263" width="236" height="42" normalimage="btn_quick_install_n.png" hotimage="btn_quick_install_h.png" pushedimage="btn_quick_install_p.png" bordercolor="#0056BAEE" textcolor="#FFFFFF" disabledtextcolor="#FFA7A6AA" text="一键安装" font="1" />
+					<Button name="btn_back" float="true" pos="520,342,599,362" width="79" height="20" textcolor="#3387FF" disabledtextcolor="#FFA7A6AA" text="自定义选项 &lt;&lt;" />
+					<Option name="op_run_auto" float="true" pos="149,345,161,359" width="12" height="14" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="op_normal.png" selected="true" selectedimage="op_select.png" />
+					<Button name="btn_run_auto" font="2" text="开机自动启动" float="true" pos="166,342,266,362" width="100" align="left" height="20" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+				</VerticalLayout>
+			</VerticalLayout>
+			<VerticalLayout name="VLayout2" width="630" height="390" bkimage="update_bg.png" maxheight="390" maxwidth="630" minwidth="630" minheight="390">
+				<Label visible="true" float="true" pos="190,45,440,195" width="250" height="150" bkimage="logo.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<VerticalLayout width="630" height="180">
+					<Label name="lbl_poster" visible="false" float="true" pos="1,1,500,180" width="498" height="180" bkimage="poster_1.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Button name="Wizard_CloseBtn2" float="true" pos="602,5,628,31" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_close_n.png" hotimage="btn_close_h.png" pushedimage="btn_close_n.png" />
+				</VerticalLayout>
+				<VerticalLayout width="630" height="166">
+					<Label text="正在安装" float="true" pos="29,133,81,153" width="52" height="20" textcolor="#868789" disabledtextcolor="#FFA7A6AA" />
+					<Label name="process_value" text="35%" float="true" pos="82,133,139,153" width="57" height="20" textcolor="#FFFFFF" disabledtextcolor="#FFA7A6AA" />
+					<Progress name="Wizard_InstallProgress" float="true" pos="150,135,608,149" width="458" height="14" bkimage="progress_bk.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progress.png" max="30000" value="50" />
+				</VerticalLayout>
+			</VerticalLayout>
+			<VerticalLayout name="VLayout_page3" width="630" height="390">
+				<VerticalLayout width="630" height="294" bkimage="update_bg.png">
+					<HorizontalLayout text="CC 开黑用户许可协议" width="630" height="294">
+						<Label float="true" pos="190,45,440,195" width="250" height="150" bkimage="logo.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+						<Button name="Wizard_CloseBtn3" float="true" pos="601,3,627,29" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_close_n.png" hotimage="btn_close_h.png" pushedimage="btn_close_n.png" />
+						<!--Label text="扫描安装手机CC" float="true" pos="295,161,0,0" width="86" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="197,207,0,0" width="30" height="30" bkimage="icon_right.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" /-->
+						<Label text="安装完成!" float="true" pos="275,214,355,254" width="80" height="40" textcolor="#C3C3C4" disabledtextcolor="#FFA7A6AA" font="1" align="center" />
+						<Label name="lbl_character_edit_bk" float="true" pos="0,94,500,294" width="630" height="200" bkimage="richedit_bk.png" visible="false" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+						<RichEdit name="CharacterRichEdit" float="true" pos="5,99,495,294" width="490" height="195" textcolor="#00000000" readonly="true" rich="true" visible="false" enabled="false" autovscroll="true" vscrollbar="true" multiline="true" />
+						<Button name="btn_close_character" float="true" pos="479,95,495,111" width="16" height="16" normalimage="btn_richedit_close_n.png" hotimage="btn_richedit_close_h.png" pushedimage="btn_richedit_close_n.png" visible="false" bkimage="btn_close_hover.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					</HorizontalLayout>
+				</VerticalLayout>
+				<VerticalLayout width="630" height="52" bkcolor="#FFFFFFFF" bkcolor2="#00FFFFFF" bkimage="update_bg.png">
+					<Button name="btn_start_now" float="true" pos="197,10,433,52" width="236" height="42" normalimage="btn_quick_install_n.png" hotimage="btn_quick_install_h.png" pushedimage="btn_quick_install_p.png" textcolor="#FFFFFF" disabledtextcolor="#FFA7A6AA" visible="true" text="立即体验" font="1" />
+					<Button name="btn_install_complete" float="true" pos="197,10,433,52" width="236" height="42" normalimage="btn_quick_install_n.png" hotimage="btn_quick_install_h.png" pushedimage="btn_quick_install_p.png" textcolor="#FFFFFF" disabledtextcolor="#FFA7A6AA" visible="false" visible="true" text="立即体验" font="1" />
+				</VerticalLayout>
+			</VerticalLayout>
+		</TabLayout>
+	</Container>
+</Window>

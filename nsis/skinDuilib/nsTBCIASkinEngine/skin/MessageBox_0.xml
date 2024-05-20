@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="320,185" caption="0,0,0,35">
+	<Font size="12" bold="true" name="微软雅黑" />
+	<Font size="12" name="微软雅黑" default="true" />
+	<VerticalLayout width="320" height="185" bkcolor="#FF181c3d">
+		<Label name="TitleLab" float="true" pos="0,0,0,0" width="320" height="32" bkimage="msg_title.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		<Button name="CloseBtn" float="true" pos="290,3,0,0" width="26" height="28" bkimage="btn_close_n.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="btn_close_n.png" hotimage="btn_close_h.png" pushedimage="btn_close_h.png" />
+		<Button name="YESBtn" float="true" pos="75,139,0,0" width="80" height="24" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" normalimage="btn_retry_n.png" hotimage="btn_retry_h.png" pushedimage="btn_retry_p.png" />
+		<Button name="NOBtn" float="true" pos="165,139,0,0" width="80" height="24" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" normalimage="btn_no_n.png" hotimage="btn_no_h.png" pushedimage="btn_no_p.png" />
+		<Label float="true" pos="21,70,0,0" width="32" height="32" bkimage="信息图标.png" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+		<Text name="TextLab" textcolor="#FFFFFFFF" float="true" pos="65,73,294,116" width="229" height="43" textpadding="2,0,2,0" showhtml="true" align="wrap" />
+	</VerticalLayout>
+</Window>
